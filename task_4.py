@@ -72,7 +72,7 @@ class Printer(OfficeEquipment):
         self.__print_way_num = get_print_way_num
 
     def get_print(self):
-        return f'Принтер {self.name_company} со скоростью печати {self.print_way_num} листов/мин.'
+        return f'Принтер {self.name_company} c количеством лотков для печати {self.print_way_num}'
 
 
 class Scanner(OfficeEquipment):
